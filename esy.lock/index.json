@@ -1,5 +1,5 @@
 {
-  "checksum": "846d7fb8018890a36925d03041d18b7e",
+  "checksum": "2628ecdb443b4ab9376208ed9a3f4b51",
   "root": "js-evil@link-dev:./esy.json",
   "node": {
     "ocaml@4.12.0@d41d8cd9": {
@@ -23,11 +23,12 @@
       "source": { "type": "link-dev", "path": ".", "manifest": "esy.json" },
       "overrides": [],
       "dependencies": [
-        "ocaml@4.12.0@d41d8cd9", "@opam/flow_parser@opam:0.159.0@a535a89b",
-        "@opam/dune@opam:2.9.1@1e504822"
+        "ocaml@4.12.0@d41d8cd9", "@opam/dune@opam:2.9.1@1e504822"
       ],
       "devDependencies": [
+        "@opam/ppxlib@opam:0.23.0@b29cda02",
         "@opam/ocaml-lsp-server@opam:1.9.0@671f2077",
+        "@opam/flow_parser@opam:0.159.0@a535a89b",
         "@opam/alcotest@opam:1.5.0@c3a8eb69"
       ]
     },

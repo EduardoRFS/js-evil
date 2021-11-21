@@ -3,11 +3,12 @@
   "license": "MIT",
   "dependencies": {
     "ocaml": "4.12.x",
-    "@opam/dune": "*",
-    "@opam/flow_parser": "*"
+    "@opam/dune": "*"
   },
   "devDependencies": {
     "@opam/alcotest": "*",
+    "@opam/ppxlib": "*",
+    "@opam/flow_parser": "*",
     "@opam/ocaml-lsp-server": "*"
   }
 }
