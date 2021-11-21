@@ -3,7 +3,8 @@
   "license": "MIT",
   "dependencies": {
     "ocaml": "4.12.x",
-    "@opam/dune": "*"
+    "@opam/dune": "*",
+    "@opam/flow_parser": "*"
   },
   "devDependencies": {
     "@opam/alcotest": "*",
