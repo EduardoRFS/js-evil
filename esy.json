@@ -9,6 +9,8 @@
     "@opam/alcotest": "*",
     "@opam/ppxlib": "*",
     "@opam/flow_parser": "*",
-    "@opam/ocaml-lsp-server": "*"
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*",
+    "@opam/ocamlformat-rpc": "*"
   }
 }
