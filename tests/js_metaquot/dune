@@ -1,0 +1,7 @@
+(library
+ (name js_metaquot)
+ (libraries ppxlib flow_parser compiler-libs.common)
+ (preprocess
+  (pps ppxlib.metaquot ppx_deriving.show))
+ (kind ppx_rewriter)
+ (ppx_runtime_libraries flow_parser))
