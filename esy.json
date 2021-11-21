@@ -1,0 +1,12 @@
+{
+  "name": "js-evil",
+  "license": "MIT",
+  "dependencies": {
+    "ocaml": "4.12.x",
+    "@opam/dune": "*"
+  },
+  "devDependencies": {
+    "@opam/alcotest": "*",
+    "@opam/ocaml-lsp-server": "*"
+  }
+}
